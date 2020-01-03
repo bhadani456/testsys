@@ -1,0 +1,9 @@
+jenkins windows server files.....
+
+
+"C:\Program Files (x86)\IIS\Microsoft Web Deploy V3\msdeploy.exe" -verb:sync -source:IisApp='C:\Program Files (x86)\Jenkins\workspace\windows server' -dest:iisapp='testsys'
+
+
+MS build file-        src\MyWindowsService\MyWindowsService\Deploy-Windows-service-via-MSBuild.proj
+
+To install nuget -       nuget restore src\MyWindowsService\
